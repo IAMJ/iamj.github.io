@@ -1,7 +1,8 @@
 * { margin: 0; padding: 0;}
 a { text-decoration: none; color: #333;}
 
-.list { display: flex; justify-content: start; align-items: flex-start; align-content: center; flex-wrap: wrap; padding: 10px 5px; height: 100vh; box-sizing: border-box; font-size: 12px; color: #333; text-align: center;}
-.item { width: 70px; margin: 0 0 20px 15px;}
-.list .link { display: block;}
-.list .ico { display: block; margin: 0 auto 15px; width: 55px; height: 55px; border: 1px solid #f1f1f1; border-radius: 6px; overflow: hidden;}
+.list { display: flex; justify-content: start; align-items: flex-start; align-content: center; flex-wrap: wrap; padding: 10px; height: 100vh; box-sizing: border-box; font-size: 12px; color: #333; text-align: center;}
+.item { width: 25%; margin: 0 0 15px;}
+.list .link { display: block; padding: 0 10px;}
+.list .ico { position: relative; margin: 0 auto 15px; width: 100%; padding: 0 0 100%; border: 1px solid #f1f1f1; border-radius: 6px; overflow: hidden;}
+.list .ico img { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
